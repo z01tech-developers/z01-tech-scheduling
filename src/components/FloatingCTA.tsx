@@ -23,9 +23,9 @@ export const FloatingCTA = () => {
       <Button 
         asChild
         size="lg"
-        className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+        className="bg-gradient-to-r from-[#C700F2] to-[#00FFF7] hover:from-[#D1FF00] hover:to-[#C700F2] text-[#0D0D0D] px-6 py-4 rounded-lg shadow-[0_0_20px_#C700F2] hover:shadow-[0_0_30px_#00FFF7] transition-all duration-300 transform hover:scale-105 border-none font-bold"
       >
-        <a href="https://calendly.com/yourname/strategy-call" target="_blank" rel="noopener noreferrer">
+        <a href="https://calendly.com/management-z01/30min" target="_blank" rel="noopener noreferrer">
           Book Call 📞
         </a>
       </Button>

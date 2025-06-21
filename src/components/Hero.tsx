@@ -3,24 +3,31 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden bg-[#0D0D0D]">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-white opacity-60"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#C700F2] via-[#00FFF7] to-[#D1FF00] opacity-20"></div>
       
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         {/* Logo */}
         <div className="mb-12 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
-            Z01<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">.tech</span>
-          </h1>
-          <p className="text-sm text-gray-600 font-medium tracking-wide">BANGALORE DIGITAL AGENCY</p>
+          <div className="flex items-center justify-center gap-4 mb-4">
+            <img 
+              src="/lovable-uploads/03489437-7c63-4899-8774-e4a3d2b8ec93.png" 
+              alt="Z01.tech Logo" 
+              className="w-16 h-16 md:w-20 md:h-20"
+            />
+            <h1 className="text-4xl md:text-5xl font-bold text-[#F5F5F5]">
+              Z01<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C700F2] to-[#00FFF7]">.tech</span>
+            </h1>
+          </div>
+          <p className="text-sm text-[#00FFF7] font-medium tracking-wide">BANGALORE DIGITAL AGENCY</p>
         </div>
 
         {/* Main headline */}
         <div className="mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gray-900 mb-6 leading-tight">
+          <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#F5F5F5] mb-6 leading-tight">
             We Build Scalable
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#C700F2] via-[#00FFF7] to-[#D1FF00]">
               Apps & Websites
             </span>
             <span className="block text-4xl md:text-5xl lg:text-6xl mt-4">
@@ -31,9 +38,9 @@ export const Hero = () => {
 
         {/* Subheadline */}
         <div className="mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-[#F5F5F5] max-w-4xl mx-auto leading-relaxed">
             Z01.tech is a dev team helping Indian startups and SMBs launch fast, scale smart, 
-            and avoid costly mistakes. <span className="font-semibold text-gray-900">No fluff — just real builds that work.</span>
+            and avoid costly mistakes. <span className="font-semibold text-[#D1FF00]">No fluff — just real builds that work.</span>
           </p>
         </div>
 
@@ -42,19 +49,19 @@ export const Hero = () => {
           <Button 
             asChild
             size="lg"
-            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-12 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            className="bg-gradient-to-r from-[#C700F2] to-[#00FFF7] hover:from-[#D1FF00] hover:to-[#C700F2] text-[#0D0D0D] px-12 py-6 text-lg font-bold rounded-lg shadow-[0_0_20px_#C700F2] hover:shadow-[0_0_30px_#00FFF7] transition-all duration-300 transform hover:scale-105 border-none"
           >
-            <a href="https://calendly.com/yourname/strategy-call" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/management-z01/30min" target="_blank" rel="noopener noreferrer">
               Book Free Strategy Call →
             </a>
           </Button>
-          <p className="text-sm text-gray-500 mt-4">30 minutes • No commitments • Free insights</p>
+          <p className="text-sm text-[#00FFF7] mt-4">30 minutes • No commitments • Free insights</p>
         </div>
       </div>
 
       {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full opacity-20 animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-32 h-32 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full opacity-10 animate-pulse" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-r from-[#C700F2] to-[#00FFF7] rounded-full opacity-30 animate-pulse"></div>
+      <div className="absolute bottom-20 right-10 w-32 h-32 bg-gradient-to-r from-[#00FFF7] to-[#D1FF00] rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
     </section>
   );
 };

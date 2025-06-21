@@ -31,16 +31,16 @@ const services = [
 
 export const Services = () => {
   return (
-    <section className="py-24 px-4 bg-gray-50">
+    <section className="py-24 px-4 bg-[#0D0D0D]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#F5F5F5] mb-6">
             Services That Scale
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#C700F2] via-[#00FFF7] to-[#D1FF00]">
               Your Business
             </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-[#F5F5F5] max-w-3xl mx-auto">
             From MVP to market leader — we build the digital foundation your startup needs to succeed.
           </p>
         </div>
@@ -49,14 +49,14 @@ export const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg hover:scale-105 bg-white rounded-2xl"
+              className="group hover:shadow-[0_0_30px_#C700F2] transition-all duration-300 border-2 border-[#D1FF00] hover:border-[#00FFF7] shadow-lg hover:scale-105 bg-[#0D0D0D] rounded-lg"
             >
               <CardContent className="p-8">
                 <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
+                <h3 className="text-xl font-bold text-[#F5F5F5] mb-4 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#C700F2] group-hover:to-[#00FFF7] transition-all duration-300">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-[#F5F5F5] leading-relaxed">
                   {service.description}
                 </p>
               </CardContent>
