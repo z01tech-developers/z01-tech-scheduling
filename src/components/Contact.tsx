@@ -1,8 +1,6 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 
 export const Contact = () => {
   return (
@@ -18,8 +16,7 @@ export const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          {/* Left side - Contact options */}
+        <div className="max-w-2xl mx-auto">
           <div className="space-y-8">
             {/* Primary CTA */}
             <Card className="border-2 border-gradient-to-r from-blue-200 to-purple-200 shadow-lg rounded-2xl">
@@ -69,38 +66,6 @@ export const Contact = () => {
               </CardContent>
             </Card>
           </div>
-
-          {/* Right side - Embedded form */}
-          <Card className="shadow-lg rounded-2xl bg-white">
-            <CardHeader>
-              <CardTitle className="text-2xl font-bold text-gray-900 text-center">
-                Quick Project Inquiry
-              </CardTitle>
-              <p className="text-gray-600 text-center">
-                Tell us about your project and we'll reach out with insights
-              </p>
-            </CardHeader>
-            <CardContent>
-              <iframe
-                src="https://docs.google.com/forms/d/e/YOUR_FORM_LINK/viewform?embedded=true"
-                className="w-full h-96 border-0 rounded-lg"
-                frameBorder="0"
-                marginHeight={0}
-                marginWidth={0}
-                title="Project Inquiry Form"
-              >
-                Loading…
-              </iframe>
-              <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-                <p className="text-sm text-gray-600 text-center">
-                  <strong>Can't see the form?</strong> Email us directly at{" "}
-                  <a href="mailto:hello@z01.tech" className="text-purple-600 hover:underline">
-                    hello@z01.tech
-                  </a>
-                </p>
-              </div>
-            </CardContent>
-          </Card>
         </div>
 
         {/* Contact info */}
