@@ -1,4 +1,3 @@
-
 import { Separator } from "@/components/ui/separator";
 
 export const Footer = () => {
@@ -12,7 +11,7 @@ export const Footer = () => {
               <img 
                 src="/lovable-uploads/530e52a9-3129-4d7f-9391-31714efd67ae.png" 
                 alt="Z01.tech Logo" 
-                className="w-16 h-auto"
+                className="w-8 h-8"
               />
             </div>
             <p className="text-[#F5F5F5] mb-6 max-w-md">
