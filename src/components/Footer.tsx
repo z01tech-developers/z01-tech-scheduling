@@ -10,15 +10,10 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/lovable-uploads/03489437-7c63-4899-8774-e4a3d2b8ec93.png" 
+                src="/lovable-uploads/58b7896d-2f53-4508-b4f0-9b5609021a0f.png" 
                 alt="Z01.tech Logo" 
-                className="w-8 h-8"
+                className="w-12 h-auto"
               />
-              <h3 className="text-2xl font-bold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C700F2] to-[#00FFF7]">
-                  Z01.tech
-                </span>
-              </h3>
             </div>
             <p className="text-[#F5F5F5] mb-6 max-w-md">
               Building scalable apps and websites for Bangalore startups. 
