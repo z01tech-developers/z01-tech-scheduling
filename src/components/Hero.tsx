@@ -10,15 +10,12 @@ export const Hero = () => {
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         {/* Logo */}
         <div className="mb-12 animate-fade-in">
-          <div className="flex items-center justify-center gap-4 mb-4">
+          <div className="flex items-center justify-center mb-8">
             <img 
               src="/lovable-uploads/03489437-7c63-4899-8774-e4a3d2b8ec93.png" 
               alt="Z01.tech Logo" 
-              className="w-16 h-16 md:w-20 md:h-20"
+              className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48"
             />
-            <h1 className="text-4xl md:text-5xl font-bold text-[#F5F5F5]">
-              Z01<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C700F2] to-[#00FFF7]">.tech</span>
-            </h1>
           </div>
           <p className="text-sm text-[#00FFF7] font-medium tracking-wide">BANGALORE DIGITAL AGENCY</p>
         </div>
