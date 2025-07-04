@@ -9,9 +9,9 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/lovable-uploads/530e52a9-3129-4d7f-9391-31714efd67ae.png" 
+                src="/lovable-uploads/logo.png" 
                 alt="Z01.tech Logo" 
-                className="w-8 h-8"
+                className="w-32 h-32"
               />
             </div>
             <p className="text-[#F5F5F5] mb-6 max-w-md">

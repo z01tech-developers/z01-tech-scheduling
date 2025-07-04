@@ -11,9 +11,9 @@ export const Hero = () => {
         <div className="mb-16 animate-fade-in">
           <div className="flex items-center justify-center mb-6">
             <img 
-              src="/lovable-uploads/530e52a9-3129-4d7f-9391-31714efd67ae.png" 
+              src="/lovable-uploads/logo.png" 
               alt="Z01.tech Logo" 
-              className="w-16 h-16 md:w-20 md:h-20"
+              className="w-48 h-48 md:w-60 md:h-60"
             />
           </div>
         </div>
